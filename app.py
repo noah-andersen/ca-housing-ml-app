@@ -15,7 +15,7 @@ st.markdown(
 
 try:
     image_path = "docs/ca_housing.png" # Use a local path or URL  
-    st.image(image_path, caption='Sample Image')
+    st.image(image_path)
 except:
     pass  
 
